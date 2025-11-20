@@ -1,34 +1,52 @@
+import Image from "next/image";
 import { Section } from "@/components/layout/Section";
 
 export function CallalouEssence() {
   return (
     <Section>
-      <div className="space-y-5">
+      <div className="space-y-6">
         <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
           Brand Essence
         </p>
-        <h1 className="text-4xl font-semibold text-slate-900">
-          Callalou Ventures is a recipe for belonging.
-        </h1>
-        <p className="text-lg text-slate-600">
-          Like the dish it is named after, Callalou combines bold ingredients:
-          diaspora brilliance, institutional know-how, and storycraft. We invest
-          in founders designing products that make culture feel like home.
-        </p>
+        <div className="flex items-center gap-4">
+          <Image
+            src="/images/brand/Callalou-leaf.png"
+            alt="Callalou Ventures logo"
+            width={64}
+            height={64}
+            className="h-12 w-12 object-contain"
+          />
+          <h1 className="text-4xl font-semibold text-slate-900">
+            Callalou Ventures: The credible, structured, investable entity.
+          </h1>
+        </div>
+        <div className="max-w-3xl space-y-4 text-lg text-slate-600">
+          <p>
+            &quot;Callalou&quot; instantly signals Caribbean roots without cliché. It evokes nourishment, home, warmth, and cultural identity. It&apos;s memorable, ownable, and emotionally resonant — perfect for attracting value-driven investors.
+          </p>
+          <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+            <p className="text-sm font-semibold uppercase tracking-wider text-slate-500">
+              Brand Promise
+            </p>
+            <p className="mt-2 text-xl font-semibold italic text-slate-900">
+              &quot;Your investment helps give someone else a place to belong — while building wealth for your future.&quot;
+            </p>
+          </div>
+        </div>
       </div>
       <div className="grid gap-6 pt-8 md:grid-cols-3">
         {[
           {
-            title: "Promise",
-            copy: "Champion founders who make belonging scalable and investable.",
+            title: "Core Themes",
+            copy: "Home • Dignity • Stability • Growth • Community • Forward Momentum",
           },
           {
-            title: "Posture",
-            copy: "Lead with empathy, ship with excellence, and share the mic.",
+            title: "Brand Personality",
+            copy: "Warm, intentional, principled, ambitious, rooted in heritage",
           },
           {
-            title: "Practice",
-            copy: "Pair capital with narrative, customer research, and network design.",
+            title: "Positioning",
+            copy: "The purpose-driven, heritage-rooted alternative to traditional real estate investors",
           },
         ].map((item) => (
           <div

@@ -2,19 +2,19 @@ import { Section } from "@/components/layout/Section";
 
 const articles = [
   {
-    title: "Capital as Cultural Infrastructure",
+    title: "From Antigua to Cincinnati: Building Wealth with Purpose",
     summary:
-      "How diaspora-led funds are redefining community wealth with hospitality and housing plays.",
+      "Emil's personal journey from a small Caribbean island to real estate investing in the Midwest, and how cultural roots shape investment philosophy.",
   },
   {
-    title: "The Callalou Operating System",
+    title: "Burn the Boats: A Philosophy of Radical Commitment",
     summary:
-      "A framework for pairing narrative strategy with early-stage investing.",
+      "Why removing the option of retreat leads to bold action, decisive leadership, and full belief in the path ahead — not reckless risk, but preparation, discipline, and purpose.",
   },
   {
-    title: "Investor Letter: Burn the Boats",
+    title: "Why Home Matters: Creating Dignity Through Housing",
     summary:
-      "Why conviction capital requires care, courage, and clear accountability.",
+      "How stable housing transforms lives, and why Callalou Ventures invests in properties that serve all tenants — including Section 8 — with respect and dignity.",
   },
 ];
 
@@ -26,7 +26,7 @@ export function ArticleList() {
           Articles &amp; Essays
         </p>
         <h2 className="text-3xl font-semibold text-slate-900">
-          Read the latest thinking from the Callalou desk.
+          Articles and insights on purpose-driven real estate investing.
         </h2>
       </div>
       <div className="space-y-4 pt-6">

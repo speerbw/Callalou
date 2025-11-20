@@ -2,19 +2,19 @@ import { Section } from "@/components/layout/Section";
 
 const videos = [
   {
-    title: "Designing Home for the Hustle",
+    title: "From Antigua to Opportunity: The Emil Brown Story",
     length: "12 min",
-    tag: "Mini talk",
+    tag: "Origin Story",
   },
   {
-    title: "Belonging Field Notes: Antigua Edition",
-    length: "8 min",
-    tag: "Travel log",
-  },
-  {
-    title: "Burn the Boats: Founder Office Hours",
+    title: "Burn the Boats: Building Wealth with Purpose",
     length: "15 min",
-    tag: "Workshop",
+    tag: "Philosophy",
+  },
+  {
+    title: "Why Home Matters: Creating Dignity Through Housing",
+    length: "10 min",
+    tag: "Mission",
   },
 ];
 
@@ -26,7 +26,7 @@ export function VideoGrid() {
           Video Series
         </p>
         <h2 className="text-3xl font-semibold text-slate-900">
-          Visual stories from the field.
+          Visual stories: From Antigua to Cincinnati, building wealth with purpose.
         </h2>
       </div>
       <div className="grid gap-6 pt-6 md:grid-cols-3">

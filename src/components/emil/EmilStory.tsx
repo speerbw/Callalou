@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Section } from "@/components/layout/Section";
 
 export function EmilStory() {
@@ -12,7 +13,7 @@ export function EmilStory() {
             From Antigua to Opportunity.
           </h1>
           <p className="text-lg text-slate-600">
-            Emil Calderon carries the spirit of Antigua&apos;s marketplaces into
+            Emil Brown carries the spirit of Antigua&apos;s marketplaces into
             every boardroom. Raised by multigenerational matriarchs, he learned
             early that community is the first investor. After immigrating to New
             York, Emil blended creative strategy, civic innovation, and venture
@@ -25,21 +26,34 @@ export function EmilStory() {
             lived experience into durable companies that honor home.
           </p>
         </div>
-        <div className="space-y-4 rounded-3xl bg-white p-6 shadow-sm">
-          <h2 className="text-xl font-semibold text-slate-900">
-            Guiding Ingredients
-          </h2>
-          <ul className="list-disc space-y-2 pl-6 text-sm text-slate-600">
-            <li>Radical hospitality as a leadership practice.</li>
-            <li>Data storytelling that unlocks institutional capital.</li>
-            <li>
-              Diaspora bridges between the Caribbean, the U.S., and Africa.
-            </li>
-            <li>
-              Field-proven programs for founders navigating housing and culture
-              systems.
-            </li>
-          </ul>
+        <div className="space-y-6">
+          <div className="relative aspect-[3/4] overflow-hidden rounded-3xl">
+            <Image
+              src="/images/brand/HeadShot.jpg"
+              alt="Emil Brown - Founder of Callalou Ventures"
+              fill
+              className="object-cover"
+              priority
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+            />
+          </div>
+          <div className="space-y-4 rounded-3xl bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-semibold text-slate-900">
+              Guiding Ingredients
+            </h2>
+            <ul className="list-disc space-y-2 pl-6 text-sm text-slate-600">
+              <li>Radical hospitality as a leadership practice.</li>
+              <li>Data storytelling that unlocks institutional capital.</li>
+              <li>
+                Diaspora bridges between the Caribbean, the U.S., and Africa.
+              </li>
+              <li>
+                Field-proven programs for founders navigating housing and culture
+                systems.
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </Section>

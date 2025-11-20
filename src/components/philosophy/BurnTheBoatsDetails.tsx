@@ -1,46 +1,22 @@
 import { Section } from "@/components/layout/Section";
 
-const commitments = [
-  {
-    title: "No tourist capital",
-    copy: "We deploy with operators who live the problem and plan to stay long after headlines fade.",
-  },
-  {
-    title: "Co-learning as diligence",
-    copy: "We spend time in community, collect qualitative signals, and co-create strategy before wiring a dollar.",
-  },
-  {
-    title: "Care is a KPI",
-    copy: "Founder wellbeing, responsible governance, and regenerative economics drive our win-loss review.",
-  },
-];
-
 export function BurnTheBoatsDetails() {
   return (
     <Section background="muted" className="rounded-3xl shadow-inner">
-      <div className="grid gap-8 md:grid-cols-2">
-        <div className="space-y-4">
-          <h2 className="text-3xl font-semibold text-slate-900">
-            Radical conviction, practical frameworks.
-          </h2>
-          <p className="text-slate-600">
-            Burn the Boats is not reckless bravado. It is a disciplined operating
-            system that centers preparation, partnership, and accountability.
+      <div className="space-y-6">
+        <h2 className="text-3xl font-semibold text-slate-900">
+          Radical conviction, practical frameworks.
+        </h2>
+        <div className="max-w-3xl space-y-4 text-slate-600">
+          <p>
+            &quot;Burn the Boats&quot; is not recklessness — it&apos;s radical commitment. It signals action, purpose, and forward progress with no retreat.
           </p>
-          <p className="text-slate-600">
-            We help founders design capital stacks, board relationships, and
-            community compacts that withstand volatility.
+          <p>
+            This philosophy serves as our tagline, our section header, and our motivational centerpiece for investors. It represents the commitment to bold action, decisive leadership, and full belief in the path ahead.
           </p>
-        </div>
-        <div className="space-y-4 rounded-3xl border border-slate-200 bg-white p-6">
-          {commitments.map((commitment) => (
-            <div key={commitment.title}>
-              <h3 className="text-xl font-semibold text-slate-900">
-                {commitment.title}
-              </h3>
-              <p className="mt-2 text-sm text-slate-600">{commitment.copy}</p>
-            </div>
-          ))}
+          <p>
+            We invest with conviction, clarity, and compassion — transforming overlooked neighborhoods into places people are proud to call home.
+          </p>
         </div>
       </div>
     </Section>

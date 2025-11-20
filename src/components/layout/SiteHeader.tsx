@@ -1,7 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
-  { href: "/about", label: "About" },
+  { href: "/about", label: "About Emil Brown" },
   { href: "/callalou", label: "Callalou Ventures" },
   { href: "/philosophy", label: "Philosophy" },
   { href: "/content", label: "Content" },
@@ -13,6 +14,13 @@ export function SiteHeader() {
     <header className="border-b border-slate-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-6 sm:flex-row sm:items-center sm:justify-between">
         <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/images/brand/Callalou-leaf.png"
+            alt="Callalou Ventures logo"
+            width={32}
+            height={32}
+            className="h-8 w-8 object-contain"
+          />
           <span className="text-lg font-semibold tracking-tight text-slate-900">
             Callalou Ventures
           </span>

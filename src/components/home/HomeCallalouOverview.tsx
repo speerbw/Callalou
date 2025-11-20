@@ -1,20 +1,5 @@
 import { Section } from "@/components/layout/Section";
 
-const pillars = [
-  {
-    title: "Belonging Infrastructure",
-    copy: "Housing, hospitality, and community products that anchor the New Majority with dignity.",
-  },
-  {
-    title: "Cultural Capital",
-    copy: "Media, storytelling, and creator platforms that reclaim narrative ownership.",
-  },
-  {
-    title: "Care Economies",
-    copy: "Health, wellness, and financial tools that move overlooked families from fragile to flourishing.",
-  },
-];
-
 export function HomeCallalouOverview() {
   return (
     <Section>
@@ -23,27 +8,19 @@ export function HomeCallalouOverview() {
           Callalou Ventures
         </p>
         <h2 className="text-3xl font-semibold text-slate-900">
-          Brand promise: story-first capital for the builders of home.
+          Your investment helps give someone else a place to belong — while building wealth for your future.
         </h2>
-        <p className="max-w-3xl text-slate-600">
-          Callalou is named after a Caribbean dish that mixes bold ingredients
-          into something nourishing. We invest with the same intention—combining
-          capital, narrative strategy, and operator empathy so founders can
-          translate community credibility into scalable companies.
-        </p>
-      </div>
-      <div className="grid gap-6 pt-6 md:grid-cols-3">
-        {pillars.map((pillar) => (
-          <div
-            key={pillar.title}
-            className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm"
-          >
-            <h3 className="text-xl font-semibold text-slate-900">
-              {pillar.title}
-            </h3>
-            <p className="mt-3 text-sm text-slate-600">{pillar.copy}</p>
-          </div>
-        ))}
+        <div className="max-w-3xl space-y-4 text-slate-600">
+          <p>
+            Callalou Ventures serves as the credible, structured, investable entity — the umbrella brand that signals Caribbean roots without cliché. It evokes nourishment, home, warmth, and cultural identity.
+          </p>
+          <p>
+            <strong className="text-slate-900">Core Themes:</strong> Home • Dignity • Stability • Growth • Community • Forward Momentum
+          </p>
+          <p>
+            <strong className="text-slate-900">Brand Personality:</strong> Warm, intentional, principled, ambitious, rooted in heritage
+          </p>
+        </div>
       </div>
     </Section>
   );

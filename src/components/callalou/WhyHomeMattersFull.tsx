@@ -1,45 +1,41 @@
 import { Section } from "@/components/layout/Section";
 
-const pillars = [
-  {
-    title: "Home is agency",
-    description:
-      "Secure, culturally grounded housing lets families plan, vote, and invest with a long-term horizon.",
-  },
-  {
-    title: "Home is memory",
-    description:
-      "When we archive our stories intentionally, we export culture on our own terms.",
-  },
-  {
-    title: "Home is economy",
-    description:
-      "Belonging infrastructure creates jobs, supply chains, and creative IP that compounds locally.",
-  },
-];
-
 export function WhyHomeMattersFull() {
   return (
     <Section background="contrast" className="rounded-3xl shadow-lg">
-      <div className="space-y-4">
+      <div className="space-y-6">
         <p className="text-sm uppercase tracking-[0.3em] text-white/70">
           Why Home Matters
         </p>
         <h2 className="text-3xl font-semibold">
-          We invest in ventures that treat home as a strategic asset class.
+            Home is more than a roof. It&apos;s safety. It&apos;s freedom. It&apos;s possibility.
         </h2>
-        <p className="text-white/80">
-          Callalou backs platforms that move people from precarious to powerful,
-          aligning financial returns with social repair.
-        </p>
-      </div>
-      <div className="grid gap-6 pt-6 md:grid-cols-3">
-        {pillars.map((pillar) => (
-          <div key={pillar.title} className="rounded-2xl bg-white/10 p-6">
-            <h3 className="text-xl font-semibold">{pillar.title}</h3>
-            <p className="mt-3 text-sm text-white/80">{pillar.description}</p>
+        <div className="max-w-3xl space-y-4 text-white/80">
+          <p>
+            When a person has a stable home, everything changes — their health, their work, their confidence, their future.
+          </p>
+          <p>
+            At Callalou Ventures, we invest in properties and communities that deserve dignity. We create homes that are clean, safe, and welcoming — for new renters, long-term tenants, and even those navigating Section 8 housing.
+          </p>
+          <div className="rounded-2xl bg-white/10 p-6">
+            <h3 className="mb-3 text-xl font-semibold">Inclusive Housing Approach</h3>
+            <p className="text-sm">
+              Our commitment to dignity extends to all tenants, including those using Section 8 housing vouchers. We believe that everyone deserves a safe, clean, and welcoming home regardless of their income source. By creating quality housing that serves Section 8 tenants with respect, we&apos;re not just providing shelter — we&apos;re providing stability, dignity, and the foundation for families to thrive.
+            </p>
           </div>
-        ))}
+            <p>
+              When you invest with us, you&apos;re not just building your portfolio.
+            </p>
+            <p className="text-lg font-medium">
+              You&apos;re helping someone else build their life because a roof over your head is more than shelter. It&apos;s a place to dream.
+            </p>
+            <p>
+              That&apos;s the power of home.
+            </p>
+            <p className="text-lg font-medium">
+              And that&apos;s the heart of Callalou Ventures.
+          </p>
+        </div>
       </div>
     </Section>
   );
