@@ -20,7 +20,7 @@ export function EmilStory() {
             experience to serve underestimated founders.
           </p>
           <p className="text-slate-600">
-            Callalou Ventures is Emil&apos;s instrument for returning abundance
+            Callaloo Ventures is Emil&apos;s instrument for returning abundance
             to the people who rarely receive it. He is equal parts cultural
             anthropologist and capital strategist—helping operators metabolize
             lived experience into durable companies that honor home.
@@ -30,7 +30,7 @@ export function EmilStory() {
           <div className="relative aspect-[3/4] overflow-hidden rounded-3xl">
             <Image
               src="/images/brand/HeadShot.jpg"
-              alt="Emil Brown - Founder of Callalou Ventures"
+              alt="Emil Brown - Founder of Callaloo Ventures"
               fill
               className="object-cover"
               priority

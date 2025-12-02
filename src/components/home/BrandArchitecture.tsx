@@ -13,10 +13,10 @@ export function BrandArchitecture() {
         <div className="grid gap-8 md:grid-cols-2">
           <div className="space-y-4 rounded-2xl border border-slate-200 bg-white p-6">
             <h3 className="text-xl font-semibold text-slate-900">
-              Callalou Ventures
+              Callaloo Ventures
             </h3>
             <p className="text-sm text-slate-600">
-              The parent brand — the credible, structured, investable entity. This is where investors place their capital and trust. Callalou Ventures signals Caribbean roots without cliché, evoking nourishment, home, warmth, and cultural identity.
+              The parent brand — the credible, structured, investable entity. This is where investors place their capital and trust. Callaloo Ventures signals Caribbean roots without cliché, evoking nourishment, home, warmth, and cultural identity.
             </p>
             <div className="space-y-2 pt-2">
               <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">

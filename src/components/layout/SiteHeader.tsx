@@ -2,10 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
-  { href: "/about", label: "About Emil Brown" },
-  { href: "/callalou", label: "Callalou Ventures" },
-  { href: "/philosophy", label: "Philosophy" },
-  { href: "/content", label: "Content" },
+  { href: "/about-company", label: "About Company" },
+  { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -16,13 +14,13 @@ export function SiteHeader() {
         <Link href="/" className="flex items-center gap-3">
           <Image
             src="/images/brand/Callalou-leaf.png"
-            alt="Callalou Ventures logo"
+            alt="Callaloo Ventures logo"
             width={32}
             height={32}
             className="h-8 w-8 object-contain"
           />
           <span className="text-lg font-semibold tracking-tight text-slate-900">
-            Callalou Ventures
+            Callaloo Ventures
           </span>
           <span className="hidden text-sm font-medium text-slate-500 sm:inline">
             Investing in belonging
@@ -42,7 +40,7 @@ export function SiteHeader() {
             href="/portal/login"
             className="rounded-full bg-slate-900 px-4 py-2 text-white transition hover:bg-slate-700"
           >
-            Investor Portal
+            Join Investor List
           </Link>
         </nav>
       </div>

@@ -8,7 +8,7 @@ export function FeaturedVideo() {
           Featured Video
         </p>
         <h2 className="text-3xl font-semibold text-slate-900">
-          Why Home Matters: The Philosophy Behind Callalou Ventures
+          Why Home Matters: The Philosophy Behind Callaloo Ventures
         </h2>
         <p className="text-slate-600">
           Emil shares insights on how a home can be the turning point in someone&apos;s life — where stability begins and opportunity grows. Learn about the journey from Antigua to Cincinnati and the purpose-driven approach to real estate investing.

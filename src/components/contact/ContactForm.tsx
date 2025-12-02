@@ -13,7 +13,7 @@ export function ContactForm() {
           </h1>
           <p className="text-slate-600">
             Share your story, deal flow, or collaboration ideas. We respond to
-            every note and welcome introductions across the Callalou ecosystem.
+            every note and welcome introductions across the Callaloo ecosystem.
           </p>
           <div className="space-y-1 text-sm text-slate-600">
             <p>Email: hello@callalouventures.com</p>

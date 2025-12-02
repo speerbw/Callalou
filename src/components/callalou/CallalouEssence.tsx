@@ -11,18 +11,18 @@ export function CallalouEssence() {
         <div className="flex items-center gap-4">
           <Image
             src="/images/brand/Callalou-leaf.png"
-            alt="Callalou Ventures logo"
+            alt="Callaloo Ventures logo"
             width={64}
             height={64}
             className="h-12 w-12 object-contain"
           />
           <h1 className="text-4xl font-semibold text-slate-900">
-            Callalou Ventures: The credible, structured, investable entity.
+            Callaloo Ventures: The credible, structured, investable entity.
           </h1>
         </div>
         <div className="max-w-3xl space-y-4 text-lg text-slate-600">
           <p>
-            &quot;Callalou&quot; instantly signals Caribbean roots without cliché. It evokes nourishment, home, warmth, and cultural identity. It&apos;s memorable, ownable, and emotionally resonant — perfect for attracting value-driven investors.
+            &quot;Callaloo&quot; instantly signals Caribbean roots without cliché. It evokes nourishment, home, warmth, and cultural identity. It&apos;s memorable, ownable, and emotionally resonant — perfect for attracting value-driven investors.
           </p>
           <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
             <p className="text-sm font-semibold uppercase tracking-wider text-slate-500">

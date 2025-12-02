@@ -11,7 +11,7 @@ export function HomeHero() {
             Invest in a future where everyone has a place to belong.
           </h1>
           <p className="max-w-3xl text-lg text-slate-600">
-            At Callalou Ventures, we believe real estate is more than buildings — it&apos;s stability, dignity, and the foundation of a good life. Your investment helps create homes where families can plant roots, grow, and thrive.
+            At Callaloo Ventures, we believe real estate is more than buildings — it&apos;s stability, dignity, and the foundation of a good life. Your investment helps create homes where families can plant roots, grow, and thrive.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link
@@ -21,17 +21,17 @@ export function HomeHero() {
               Start a conversation
             </Link>
             <Link
-              href="/callalou"
+              href="/about-company"
               className="rounded-full border border-slate-300 px-6 py-3 text-slate-900 transition hover:border-slate-900"
             >
-              Explore Callalou Ventures
+              Explore Callaloo Ventures
             </Link>
           </div>
         </div>
         <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
           <Image
             src="/images/brand/Cincinnati-skyline.jpg"
-            alt="Callalou Ventures property - a welcoming home with cityscape view"
+            alt="Callaloo Ventures property - a welcoming home with cityscape view"
             fill
             className="object-cover"
             priority
