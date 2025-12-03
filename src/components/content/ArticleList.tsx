@@ -14,7 +14,7 @@ const articles = [
   {
     title: "Why Home Matters: Creating Dignity Through Housing",
     summary:
-      "How stable housing transforms lives, and why Callalou Ventures invests in properties that serve all tenants — including Section 8 — with respect and dignity.",
+      "How stable housing transforms lives, and why Callaloo Ventures invests in properties that serve all tenants — including Section 8 — with respect and dignity.",
   },
 ];
 

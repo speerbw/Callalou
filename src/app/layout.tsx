@@ -15,15 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://callalouventures.com"),
   title: {
-    default: "Callalou Ventures",
-    template: "%s | Callalou Ventures",
+    default: "Callaloo Ventures",
+    template: "%s | Callaloo Ventures",
   },
   description: "Invest in a future where everyone has a place to belong.",
   openGraph: {
-    title: "Callalou Ventures",
+    title: "Callaloo Ventures",
     description: "Invest in a future where everyone has a place to belong.",
-    url: "https://callalouventures.com",
-    siteName: "Callalou Ventures",
+    url: "https://callalooventures.com",
+    siteName: "Callaloo Ventures",
     type: "website",
   },
 };

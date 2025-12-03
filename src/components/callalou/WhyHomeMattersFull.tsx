@@ -15,7 +15,7 @@ export function WhyHomeMattersFull() {
             When a person has a stable home, everything changes — their health, their work, their confidence, their future.
           </p>
           <p>
-            At Callalou Ventures, we invest in properties and communities that deserve dignity. We create homes that are clean, safe, and welcoming — for new renters, long-term tenants, and even those navigating Section 8 housing.
+            At Callaloo Ventures, we invest in properties and communities that deserve dignity. We create homes that are clean, safe, and welcoming — for new renters, long-term tenants, and even those navigating Section 8 housing.
           </p>
           <div className="rounded-2xl bg-white/10 p-6">
             <h3 className="mb-3 text-xl font-semibold">Inclusive Housing Approach</h3>
@@ -33,7 +33,7 @@ export function WhyHomeMattersFull() {
               That&apos;s the power of home.
             </p>
             <p className="text-lg font-medium">
-              And that&apos;s the heart of Callalou Ventures.
+              And that&apos;s the heart of Callaloo Ventures.
           </p>
         </div>
       </div>

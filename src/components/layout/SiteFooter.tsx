@@ -3,7 +3,7 @@ import { ComplianceNotice } from "./ComplianceNotice";
 
 const quickLinks = [
   { href: "/about", label: "About Emil" },
-  { href: "/callalou", label: "Callalou Ventures" },
+  { href: "/about-company", label: "About Company" },
   { href: "/philosophy", label: "Philosophy" },
   { href: "/content", label: "Content" },
   { href: "/contact", label: "Contact" },
@@ -15,7 +15,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 md:grid-cols-[2fr,1fr]">
         <div className="space-y-4">
           <p className="text-sm uppercase tracking-[0.2em] text-slate-400">
-            Callalou Ventures
+            Callaloo Ventures
           </p>
           <h3 className="text-2xl font-semibold">
             Investing in a future where everyone has a place to belong.
@@ -52,7 +52,7 @@ export function SiteFooter() {
         <div className="mx-auto max-w-6xl px-6 py-10">
           <ComplianceNotice />
           <p className="mt-6 text-xs uppercase tracking-[0.2em] text-slate-500">
-            © {new Date().getFullYear()} Callalou Ventures. All rights
+            © {new Date().getFullYear()} Callaloo Ventures. All rights
             reserved.
           </p>
         </div>

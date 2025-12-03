@@ -20,7 +20,7 @@ export function HomeEmilIntro() {
               Years later, when I entered real estate in Cincinnati, I saw the same truth everywhere: a home can be the turning point in someone&apos;s life. It&apos;s where stability begins and opportunity grows.
             </p>
             <p>
-              Callalou Ventures is my way of combining where I come from with where I&apos;m going — investing with purpose and creating wealth with integrity.
+              Callaloo Ventures is my way of combining where I come from with where I&apos;m going — investing with purpose and creating wealth with integrity.
             </p>
           </div>
         </div>

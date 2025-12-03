@@ -12,7 +12,7 @@ export function HomeNewsletter() {
             Get Belonging Field Notes
           </h2>
           <p className="text-slate-600">
-            No spam, just updates. Join our email list to receive insights on real estate investing, community building, and the philosophy behind Callalou Ventures. We&apos;re building this list now — you don&apos;t need a newsletter yet, just a place to capture names.
+            No spam, just updates. Join our email list to receive insights on real estate investing, community building, and the philosophy behind Callaloo Ventures. We&apos;re building this list now — you don&apos;t need a newsletter yet, just a place to capture names.
           </p>
         </div>
         <form className="flex w-full flex-col gap-3 md:max-w-md md:flex-row">

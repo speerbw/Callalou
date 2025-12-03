@@ -10,7 +10,7 @@ export default function PortalLayout({
       <header className="border-b border-white/10 bg-slate-950/70">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-6">
           <Link href="/" className="text-lg font-semibold text-white">
-            Callalou Ventures
+            Callaloo Ventures
           </Link>
           <p className="text-sm text-white/70">Secure Investor Workspace</p>
         </div>
